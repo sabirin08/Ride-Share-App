@@ -69,10 +69,7 @@ class RideSharingApp:
                 shortest_distance = distance
         print(f'Nearest car for {passenger.name}: {nearest_car.name}, Distance: {shortest_distance:.2f}')
     
-        
-    
 
-#For the remaining code (after this line), no modification is required
 print('---------------------Object creation------------------')
 location1 = Location(2,1)
 location2 = Location(-4,1)
